@@ -10,6 +10,9 @@
     # Pretty URL for data-sheets
     RewriteRule ^data-sheets/?$ data-sheets.php [L,QSA,NC]
 
+    # Pretty URL for category sub-category product pages
+    RewriteRule ^([^/]+)/([^/]+)/?$ shop.php?category=$1&subcategory=$2 [B,L,QSA,NC]
+
     # Pretty URL for slug pages
     RewriteRule ^([a-z0-9-]+)/?$ why-page.php?slug=$1 [L,QSA,NC]
 </IfModule>

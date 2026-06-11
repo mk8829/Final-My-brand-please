@@ -3,7 +3,7 @@ require_once __DIR__ . '/includes/catalog.php';
 require_once __DIR__ . '/includes/cms.php';
 
 $category = isset($_GET['category']) ? trim((string) $_GET['category']) : '';
-$subcategory = isset($_GET['subcategory']) ? trim((string) $_GET['subcategory']) : '';
+$subcategory = isset($_GET['subcategory']) ? rawurldecode(trim((string) $_GET['subcategory'])) : '';
 $search = isset($_GET['q']) ? trim((string) $_GET['q']) : '';
 $isSearchResults = $search !== '';
 
@@ -63,7 +63,7 @@ if ($activeCategory && !empty($activeCategory['id'])) {
 
 if ($catalogSourceCategory && $subcategory !== '') {
     foreach ((array) ($catalogSourceCategory['subcategories'] ?? []) as $sub) {
-        if ((string) ($sub['slug'] ?? '') === $subcategory) {
+        if (catalog_item_matches_aliases((array) $sub, [$subcategory])) {
             $activeSubcategory = $sub;
             break;
         }
@@ -273,7 +273,7 @@ include 'includes/header.php';
         <div class="cat-grid">
           <?php foreach ((array) $catalogSourceCategory['subcategories'] as $sub): ?>
             <?php $subImage = (string) ($sub['image'] ?? $catalogSourceCategory['image'] ?? $activeCategory['image']); ?>
-            <a href="<?php echo htmlspecialchars(catalog_shop_link((string) $activeCategory['slug'], (string) $sub['slug']), ENT_QUOTES, 'UTF-8'); ?>" class="cat-card">
+            <a href="<?php echo htmlspecialchars(catalog_subcategory_page_link((string) $activeCategory['slug'], (string) ($sub['name'] ?? $sub['slug'] ?? '')), ENT_QUOTES, 'UTF-8'); ?>" class="cat-card">
               <img src="<?php echo htmlspecialchars(url($subImage), ENT_QUOTES, 'UTF-8'); ?>" class="cat-image" alt="<?php echo htmlspecialchars((string) $sub['name'], ENT_QUOTES, 'UTF-8'); ?>">
               <div class="cat-overlay">
                 <h3 class="cat-title"><?php echo htmlspecialchars((string) $sub['name'], ENT_QUOTES, 'UTF-8'); ?></h3>

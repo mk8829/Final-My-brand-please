@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/includes/catalog.php';
 require_once __DIR__ . '/includes/content-loader.php';
 
@@ -306,7 +306,7 @@ include 'includes/header.php';
                   <div class="row g-4 d-flex justify-content-between">
                     <div class="col-xl-7">
                       <div class="product-tab-items">
-                        <p class="product-tab-items__text">05 review forÂ Denim Jean Top Jacket Sleeve Crop Women</p>
+                        <p class="product-tab-items__text">05 review for Denim Jean Top Jacket Sleeve Crop Women</p>
                         <div class="product-tab-items__card d-flex align-items-start justify-content-between gap-3">
 
                           <div
@@ -315,8 +315,8 @@ include 'includes/header.php';
                               <img src="<?php echo url('assets/imgs/inner/product-details/image-1.png'); ?>" alt="img">
                             </div>
                             <div class="product-tab-items__card-info-content">
-                              <p class="product-tab-items__card-info-content-text">GeorgeÂ â€“Â October 13, 2023</p>
-                              <div class="product-tab-items__card-info-content-name">Amazing Quility ðŸ˜</div>
+                              <p class="product-tab-items__card-info-content-text">George – October 13, 2023</p>
+                              <div class="product-tab-items__card-info-content-name">Amazing Quility 😍</div>
                             </div>
                           </div>
 
@@ -331,8 +331,8 @@ include 'includes/header.php';
                               <img src="<?php echo url('assets/imgs/inner/product-details/image-2.png'); ?>" alt="img">
                             </div>
                             <div class="product-tab-items__card-info-content">
-                              <p class="product-tab-items__card-info-content-text">GeorgeÂ â€“Â October 13, 2023</p>
-                              <div class="product-tab-items__card-info-content-name">Amazing Quility ðŸ˜</div>
+                              <p class="product-tab-items__card-info-content-text">George – October 13, 2023</p>
+                              <div class="product-tab-items__card-info-content-name">Amazing Quility 😍</div>
                             </div>
                           </div>
                           <div class="product-tab-items__card-info-star">
@@ -346,8 +346,8 @@ include 'includes/header.php';
                               <img src="<?php echo url('assets/imgs/inner/product-details/image-3.png'); ?>" alt="img">
                             </div>
                             <div class="product-tab-items__card-info-content">
-                              <p class="product-tab-items__card-info-content-text">GeorgeÂ â€“Â October 13, 2023</p>
-                              <div class="product-tab-items__card-info-content-name">Amazing Quility ðŸ˜</div>
+                              <p class="product-tab-items__card-info-content-text">George – October 13, 2023</p>
+                              <div class="product-tab-items__card-info-content-name">Amazing Quility 😍</div>
                             </div>
                           </div>
                           <div class="product-tab-items__card-info-star">
@@ -445,335 +445,12 @@ include 'includes/header.php';
 
       </main>
 
-<<<<<<< HEAD
-      <?php
-      include 'includes/footer.php';
-      ?>
-=======
-<<<<<<< HEAD
-      <?php
-      include 'includes/footer.php';
-      ?>
-=======
-      <!--===== Footer Section    S T A R T =====-->
-      <footer class="footer2" style="background-image: url(assets/imgs/footer/footer-bg2.jpg);">
-        <div class="container rr-container-1350">
-          <div class="footer2-main style2">
-            <div class="row g-5 d-flex justify-content-between">
-              <div class="col-xl-5 col-md-7 wow fadeInUp" data-wow-delay=".5s"
-                style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
-                <div class="footer2-widget">
-                  <div class="footer2-widget__title">We Shape Beauty Into Extraordinary Skin Experiences.</div>
-                  <div class="footer2-widget-button-items">
-                    <div class="footer2-widget-button-items-btn-wrapper">
-                      <a href="cart.php" class="btn-button2">
-                        <span class="text">Downlode For</span>
-                        <span class="icon">
-                          <i class="fa-brands fa-apple"></i>
-                        </span>
-                      </a>
-                    </div>
-                    <div class="footer2-widget-button-items-btn-wrapper">
-                      <a href="cart.php" class="btn-button2">
-                        <span class="text">Downlode For</span>
-                        <span class="icon">
-                          <i class="fa-solid fa-play"></i>
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-md-5 wow fadeInUp" data-wow-delay=".7s"
-                style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                <div class="footer2-widget">
-                  <div class="footer2-widget__logo"><img src="<?php echo url('assets/imgs/logo/footer-logo.png'); ?>" alt="logo"></div>
-                  <div class="footer2-widget__social">
-                    <div class="footer2-widget__social-title">Social Icon</div>
-                    <div class="footer2-widget__social-link">
-                      <a href="contact.php"> <span><i class="fa-brands fa-facebook-f"></i></span> </a>
-                      <a href="contact.php"> <span><i class="fa-brands fa-twitter"></i></span> </a>
-                      <a href="contact.php"> <span><i class="fa-brands fa-linkedin-in"></i></span> </a>
-                      <a href="contact.php"> <span><i class="fa-brands fa-instagram"></i></span> </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".9s">
-                <div class="footer2-widget ps-xxl-3 ms-xxl-3">
-                  <div class="footer2-widget__contact">
-                    <div class="footer2-widget__contact-post">
-                      <div class="footer2-widget__contact-post-title">
-                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path
-                            d="M18.9018 7.74567C17.9393 3.51067 14.2451 1.604 11.0001 1.604C11.0001 1.604 11.0001 1.604 10.9909 1.604C7.75509 1.604 4.05175 3.5015 3.08925 7.7365C2.01675 12.4665 4.91342 16.4723 7.53509 18.9932C8.50675 19.9282 9.75342 20.3957 11.0001 20.3957C12.2468 20.3957 13.4934 19.9282 14.4559 18.9932C17.0776 16.4723 19.9743 12.4757 18.9018 7.74567ZM11.0001 12.3382C9.40509 12.3382 8.11259 11.0457 8.11259 9.45067C8.11259 7.85567 9.40509 6.56317 11.0001 6.56317C12.5951 6.56317 13.8876 7.85567 13.8876 9.45067C13.8876 11.0457 12.5951 12.3382 11.0001 12.3382Z"
-                            fill="#EE2D7A"></path>
-                        </svg>
-                        Home Address
-                      </div>
-                      <a class="footer2-widget__contact-post-link" href="contact.php">
-                        Mary Johnson. RR 2, Box 10, Lancaster, PA 17602
-                      </a>
-                    </div>
-                    <div class="footer2-widget__contact-items">
-                      <div class="footer2-widget__contact-post">
-                        <div class="footer2-widget__contact-post-title">
-                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M18.9018 7.74567C17.9393 3.51067 14.2451 1.604 11.0001 1.604C11.0001 1.604 11.0001 1.604 10.9909 1.604C7.75509 1.604 4.05175 3.5015 3.08925 7.7365C2.01675 12.4665 4.91342 16.4723 7.53509 18.9932C8.50675 19.9282 9.75342 20.3957 11.0001 20.3957C12.2468 20.3957 13.4934 19.9282 14.4559 18.9932C17.0776 16.4723 19.9743 12.4757 18.9018 7.74567ZM11.0001 12.3382C9.40509 12.3382 8.11259 11.0457 8.11259 9.45067C8.11259 7.85567 9.40509 6.56317 11.0001 6.56317C12.5951 6.56317 13.8876 7.85567 13.8876 9.45067C13.8876 11.0457 12.5951 12.3382 11.0001 12.3382Z"
-                              fill="#EE2D7A"></path>
-                          </svg>
-                          Email Address
-                        </div>
-                        <a class="footer2-widget__contact-post-link" href="tel:infor@beautengmail.com">
-                          infor@beautengmail.com
-                        </a>
-                      </div>
-                      <div class="footer2-widget__contact-post">
-                        <div class="footer2-widget__contact-post-title">
-                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M18.9018 7.74567C17.9393 3.51067 14.2451 1.604 11.0001 1.604C11.0001 1.604 11.0001 1.604 10.9909 1.604C7.75509 1.604 4.05175 3.5015 3.08925 7.7365C2.01675 12.4665 4.91342 16.4723 7.53509 18.9932C8.50675 19.9282 9.75342 20.3957 11.0001 20.3957C12.2468 20.3957 13.4934 19.9282 14.4559 18.9932C17.0776 16.4723 19.9743 12.4757 18.9018 7.74567ZM11.0001 12.3382C9.40509 12.3382 8.11259 11.0457 8.11259 9.45067C8.11259 7.85567 9.40509 6.56317 11.0001 6.56317C12.5951 6.56317 13.8876 7.85567 13.8876 9.45067C13.8876 11.0457 12.5951 12.3382 11.0001 12.3382Z"
-                              fill="#EE2D7A"></path>
-                          </svg>
-                          Email Address
-                        </div>
-                        <a class="footer2-widget__contact-post-link" href="tel:infor@beautengmail.com">
-                          infor@beautengmail.com
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer2-bottom">
-          <div class="container rr-container-1350">
-            <div class="footer2-bottom__wrapper">
-              <div class="footer2-bottom__copyright wow fadeInLeft" data-wow-delay=".9s">Â© 2026<a href="index.php">
-                  BeauTen</a>. All Rights Reserved.</div>
-              <div class="footer2-bottom__navs wow fadeInRight" data-wow-delay=".9s">
-                <a href="contact.php">Terms of Services</a>
-                <a href="contact.php">Privacy Policy</a>
-                <a href="contact.php">Cookie Policy</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+<?php include 'includes/footer.php'; ?>
 
->>>>>>> ae48f10aad1a529ccfb04dba5ea0d202009111a1
->>>>>>> 89c240c4f640b20f99fb4271d60b656e14d19e9d
     </div>
   </div>
 
 
-  <!-- Dependencies JS Files -->
-  <script src="assets/vandor/jquery/jquery.js"></script>
-  <script src="assets/vandor/bootstrap/bootstrap.bundle.min.js"></script>
-  <script src="assets/vandor/popup/jquery.magnific-popup.min.js"></script>
-  <script src="assets/vandor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vandor/gsap/gsap.min.js"></script>
-  <script src="assets/vandor/gsap/ScrollSmoother.min.js"></script>
-  <script src="assets/vandor/gsap/ScrollTrigger.min.js"></script>
-  <script src="assets/vandor/gsap/SplitText.min.js"></script>
-  <script src="assets/vandor/gsap/SplitType.js"></script>
-  <script src="assets/vandor/gsap/customEase.js"></script>
-  <script src="assets/vandor/odometer/odometer.min.js"></script>
-  <script src="assets/vandor/odometer/waypoints.min.js"></script>
-  <script src="assets/vandor/menu/jquery.meanmenu.min.js"></script>
-  <script src="assets/vandor/backtop/backToTop.js"></script>
-  <script src="assets/vandor/nice-select/nice-select.js"></script>
-  <script src="assets/vandor/wow/wow.min.js"></script>
-  <!-- Template Main JS File -->
-  <script src="assets/vandor/common-js/common.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/categories-sidebar.js"></script>
-
-  <!-- Color Selection Script -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Color Selection Functionality
-      const colorDots = document.querySelectorAll('.color-dot');
-      const selectedDot = document.querySelector('.selected-dot');
-      const selectedName = document.querySelector('.selected-name');
-
-      colorDots.forEach(function (dot) {
-        dot.addEventListener('click', function () {
-          // Remove active class from all dots
-          colorDots.forEach(function (d) {
-            d.classList.remove('is-active');
-          });
-
-          // Add active class to clicked dot
-          this.classList.add('is-active');
-
-          // Update selected color display
-          const colorValue = this.style.getPropertyValue('--dot');
-          const colorLabel = this.getAttribute('aria-label');
-
-          if (selectedDot) {
-            selectedDot.style.background = colorValue;
-          }
-
-          if (selectedName) {
-            selectedName.textContent = colorLabel.toUpperCase();
-          }
-        });
-      });
-
-      // Quantity Selector Functionality
-      const qtyDecreaseBtn = document.querySelector('.qty-btn[aria-label="Decrease"]');
-      const qtyIncreaseBtn = document.querySelector('.qty-btn[aria-label="Increase"]');
-      const qtyVal = document.querySelector('.qty-val');
-
-      if (qtyDecreaseBtn && qtyIncreaseBtn && qtyVal) {
-        let currentQty = parseInt(qtyVal.textContent.trim()) || 1;
-        const minQty = 1;
-        const maxQty = 99;
-
-        // Function to update quantity display
-        function updateQty(value) {
-          currentQty = Math.max(minQty, Math.min(maxQty, value));
-          qtyVal.textContent = String(currentQty).padStart(2, '0');
-
-          // Update button states for visual feedback
-          qtyDecreaseBtn.disabled = currentQty <= minQty;
-          qtyIncreaseBtn.disabled = currentQty >= maxQty;
-
-          // Add visual feedback
-          qtyVal.style.transform = 'scale(1.1)';
-          setTimeout(function () {
-            qtyVal.style.transform = 'scale(1)';
-          }, 200);
-        }
-
-        // Initialize button states
-        updateQty(currentQty);
-
-        // Decrease button
-        qtyDecreaseBtn.addEventListener('click', function (e) {
-          e.preventDefault();
-          if (currentQty > minQty) {
-            updateQty(currentQty - 1);
-          }
-        });
-
-        // Increase button
-        qtyIncreaseBtn.addEventListener('click', function (e) {
-          e.preventDefault();
-          if (currentQty < maxQty) {
-            updateQty(currentQty + 1);
-          }
-        });
-      }
-
-
-      // Product image zoom on cursor move
-      const zoomThumbs = document.querySelectorAll('.product-details-thumb .thumb');
-      zoomThumbs.forEach(function (thumb) {
-        const img = thumb.querySelector('img');
-        if (!img) return;
-
-        thumb.addEventListener('mousemove', function (e) {
-          const rect = thumb.getBoundingClientRect();
-          const x = ((e.clientX - rect.left) / rect.width) * 100;
-          const y = ((e.clientY - rect.top) / rect.height) * 100;
-          img.style.transformOrigin = x + '% ' + y + '%';
-          img.style.transform = 'scale(1.22)';
-        });
-
-        thumb.addEventListener('mouseleave', function () {
-          img.style.transformOrigin = 'center center';
-          img.style.transform = 'scale(1)';
-        });
-      });
-
-      // Thumbnail click -> show selected large image pane
-      const thumbLinks = document.querySelectorAll('.product-details .tab-header .nav a[href^="#thumb-"]');
-      const thumbPanes = document.querySelectorAll('.product-details .tab-content .tab-pane');
-      thumbLinks.forEach(function (link) {
-        link.addEventListener('click', function (e) {
-          e.preventDefault();
-          const targetId = this.getAttribute('href');
-          if (!targetId) return;
-          const targetPane = document.querySelector(targetId);
-          if (!targetPane) return;
-
-          thumbPanes.forEach(function (pane) {
-            pane.classList.remove('show', 'active');
-          });
-          targetPane.classList.add('show', 'active');
-
-          thumbLinks.forEach(function (a) {
-            a.classList.remove('active');
-            a.setAttribute('aria-selected', 'false');
-          });
-          this.classList.add('active');
-          this.setAttribute('aria-selected', 'true');
-        });
-      });
-
-      // Helper function to show notifications
-      function showNotification(message, type) {
-        // Remove existing notification if any
-        const existingNotification = document.querySelector('.product-notification');
-        if (existingNotification) {
-          existingNotification.remove();
-        }
-
-        // Create notification element
-        const notification = document.createElement('div');
-        notification.className = 'product-notification';
-        notification.textContent = message;
-        notification.style.cssText = `
-          position: fixed;
-          top: 20px;
-          right: 20px;
-          background: ${type === 'success' ? '#4CAF50' : type === 'info' ? '#2196F3' : '#f44336'};
-          color: white;
-          padding: 15px 25px;
-          border-radius: 8px;
-          box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-          z-index: 10000;
-          font-family: var(--font_Lato);
-          font-size: 14px;
-          animation: slideIn 0.3s ease;
-        `;
-
-        // Add animation
-        const style = document.createElement('style');
-        style.textContent = `
-          @keyframes slideIn {
-            from {
-              transform: translateX(100%);
-              opacity: 0;
-            }
-            to {
-              transform: translateX(0);
-              opacity: 1;
-            }
-          }
-        `;
-        document.head.appendChild(style);
-
-        document.body.appendChild(notification);
-
-        // Remove notification after 3 seconds
-        setTimeout(function () {
-          notification.style.animation = 'slideIn 0.3s ease reverse';
-          setTimeout(function () {
-            notification.remove();
-          }, 300);
-        }, 3000);
-      }
-
-    });
-  </script>
   <script>
     // Fallback shared store for product-details page (this page does not use includes/footer.php).
     if (!window.MybrandStore) {
@@ -1052,16 +729,16 @@ include 'includes/header.php';
               <div class="tab-content" id="product-info-tabContent">
                 <div class="tab-pane fade show active" id="product-info-moq" role="tabpanel" aria-labelledby="product-info-moq-tab" tabindex="0">
                   <h6 class="mb-2">Minimum Order Quantity</h6>
-                  <p class="mb-2 text-muted lh-base fs-17 word-spacing-3">Our MOQ is usually based on bulk batch sizes ranging from 50 kg to 100 kg Bulk, depending on the viscosity and nature of the product. (±10% tolerance).</p>
-                  <p class="mb-2 text-muted lh-base fs-17 word-spacing-3">Eg - For a 50 kg Bulk batch size usually for skin care or hair care Serums & color cosmetics, if your pack size is 30ml, you would receive approximately 1,000 to 1500 units. (±10% tolerance).</p>
-                  <p class="mb-2 text-muted lh-base fs-17 word-spacing-3">For a batch size of 100 kg or more, typically for  Cream, SPF’s, Shampoo, Conditioners, Body Lotions, Body Wash, Hair oil Variants, etc., a 200 ml SKU would yield approximately 500 units. (±10% tolerance).</p>
+                  <p class="mb-2 text-muted lh-base fs-17 word-spacing-3">Our MOQ is usually based on bulk batch sizes ranging from 50 kg to 100 kg Bulk, depending on the viscosity and nature of the product. (�10% tolerance).</p>
+                  <p class="mb-2 text-muted lh-base fs-17 word-spacing-3">Eg - For a 50 kg Bulk batch size usually for skin care or hair care Serums & color cosmetics, if your pack size is 30ml, you would receive approximately 1,000 to 1500 units. (�10% tolerance).</p>
+                  <p class="mb-2 text-muted lh-base fs-17 word-spacing-3">For a batch size of 100 kg or more, typically for  Cream, SPF�s, Shampoo, Conditioners, Body Lotions, Body Wash, Hair oil Variants, etc., a 200 ml SKU would yield approximately 500 units. (�10% tolerance).</p>
                 </div>
                 <div class="tab-pane fade" id="product-info-note" role="tabpanel" aria-labelledby="product-info-note-tab" tabindex="0">
                   <h6 class="mb-2">Why is adhering to MOQ important?</h6>
                   <p class="mb-2 text-muted lh-base fs-17 word-spacing-3">The Minimum Order Quantity for bulk batch size that we have shared is the industry standard globally, and it is set to ensure product quality, stability, and consistent efficacy for commercial production batches. Bulk sizes below this threshold is very likely compromising on formulation integrity.</p>
                   <p class="mb-2 text-muted lh-base fs-17 word-spacing-3">For cosmetic products especially those with performance-oriented actives the shelf life, texture, fragrance stability, and overall efficacy depend heavily on proper homogenization. In standard manufacturing, ingredients are blended using automated mixers at controlled RPM, which vary according to the viscosity and nature of each formulation. This ensures uniform distribution of active ingredients and guarantees compliance with product claims.</p>
                   <p class="mb-2 text-muted lh-base fs-17 word-spacing-3">When the batch size is reduced below the minimum required volume, the blending process cannot be executed correctly within the mixer. This results in uneven dispersion of actives, compromised stability, and a product whose shelf life cannot be assured. Manual blending is not a sustainable or scientifically sound method for commercial production, especially for premium grooming products.</p>
-                  <p class="mb-2 text-muted lh-base fs-17 word-spacing-3">For these reasons, adhering to the industry-standard MOQ is essential to deliver a product that meets both regulatory expectations and your brand’s high-performance standards.</p>
+                  <p class="mb-2 text-muted lh-base fs-17 word-spacing-3">For these reasons, adhering to the industry-standard MOQ is essential to deliver a product that meets both regulatory expectations and your brand�s high-performance standards.</p>
                 </div>
                 <div class="tab-pane fade" id="product-info-custom" role="tabpanel" aria-labelledby="product-info-custom-tab" tabindex="0">
                   <h6 class="mb-2">New Custom Formulation</h6>
@@ -1271,18 +948,4 @@ include 'includes/header.php';
       .product-info-tabs .nav-link { white-space: nowrap; margin-bottom: 0; }
     }
   </style>
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
 

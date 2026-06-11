@@ -45,6 +45,13 @@ function catalog_expand_aliases(array $aliases): array
         'perfumes' => ['aerosols', 'aerosols-parfumes', 'aerosols-perfumes', 'fragrances'],
         'vitamin-c' => ['skin-care-vitamin-c', 'beauty-products-vitamin-c'],
         'skin-care-vitamin-c' => ['vitamin-c'],
+        'shampoo-conditioner-bars' => ['shampoo-and-conditioner-bars', 'hair-care-bars', 'bars'],
+        'shampoo-and-conditioner-bars' => ['shampoo-conditioner-bars', 'hair-care-bars', 'bars'],
+        'bath-body-scrub' => ['bath-and-body-scrub', 'body-care-body-scrubs', 'body-scrubs'],
+        'bath-and-body-scrub' => ['bath-body-scrub', 'body-care-body-scrubs', 'body-scrubs'],
+        'salt-soaks' => ['salts-soaks', 'salts-and-soaks', 'body-care-salts-soaks'],
+        'salts-soaks' => ['salt-soaks', 'salts-and-soaks', 'body-care-salts-soaks'],
+        'salts-and-soaks' => ['salt-soaks', 'salts-soaks', 'body-care-salts-soaks'],
     ];
 
     $expanded = [];
@@ -512,6 +519,18 @@ function catalog_shop_link(?string $category = null, ?string $subcategory = null
     return url('shop.php') . ($query ? ('?' . http_build_query($query)) : '');
 }
 
+function catalog_subcategory_page_link(string $categorySlug, string $subcategoryNameOrSlug): string
+{
+    $categorySlug = trim($categorySlug);
+    $subcategoryNameOrSlug = trim($subcategoryNameOrSlug);
+    if ($categorySlug === '') {
+        return url('shop.php');
+    }
+    if ($subcategoryNameOrSlug === '') {
+        return catalog_shop_link($categorySlug);
+    }
 
+    return url(rawurlencode($categorySlug) . '/' . rawurlencode($subcategoryNameOrSlug) . '/');
+}
 
 
